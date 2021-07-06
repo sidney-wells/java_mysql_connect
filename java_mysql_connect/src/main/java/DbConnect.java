@@ -17,8 +17,8 @@ import java.sql.Statement;
 public class DbConnect {
     
     static final String DB_URL = "jdbc:mysql://localhost/";
-    static final String USER = "root";
-    static final String PASS = true ? "13791379" : "string";        
+    static final String USER = "root"; // local user username
+    static final String PASS = "string";  // local user pw
 
    public static void main(String[] args) {
       // Open a connection
